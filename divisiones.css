@@ -1,0 +1,250 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(black,rgb(85, 22, 22));
+    /* overflow-x: hidden; */
+}
+#container{
+    margin: 0;
+    /* position: relative; */
+    top: -50px;
+}
+h2{
+    font-family: 'Great Vibes', cursive;
+}
+#banner{
+    background-image: url('img/restaurant_1.jpg');
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: relative; */
+    width: 100%;
+    height: 600px;
+
+}
+#logo{
+    position: relative;
+    left: 30%;
+    overflow: hidden;
+
+}
+.overlay{
+    background-color: #644a238c;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#banner h1{
+    margin: auto;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: auto;
+    font-size: 70px;
+}
+#menu{
+    position: sticky;
+    top: 0px;
+    background-color: chocolate;
+    width: 100%;
+    height: 68px;
+    background-attachment: fixed;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    z-index: 200;
+}
+
+#menu ul{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+#menu ul li{
+    float: left;
+}
+#menu ul li a{
+    align-content: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: chocolate;
+    padding: 25px;
+    display: block;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: rgb(90, 45, 14);
+}
+#main{
+    padding: 18px;
+}
+
+.myTitle{
+    width: 20%;
+    height: 50px;
+    /* background-color: gray; */
+    color: white;
+    text-align: center;
+    align-self: auto;
+    align-content: center;
+}
+.content{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    padding-left: 25px;
+    background: rgba(212,86,2,0.73);
+    background: -moz-linear-gradient(left, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,86,2,0.73)), color-stop(42%, rgba(212,86,2,0.63)), color-stop(84%, rgba(38,35,19,0.53)), color-stop(100%, rgba(102,102,102,0.49)));
+    background: -webkit-linear-gradient(left, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    background: -o-linear-gradient(left, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    background: -ms-linear-gradient(left, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    background: linear-gradient(to right, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d45602', endColorstr='#666666', GradientType=1 );
+}
+.insider{
+    float: left;
+    padding: 10px;
+}
+.sampleImg{
+    position: relative;
+    width: 465px;
+    height: 530px;
+    background-color: gray;
+    /* display: inline-block; */
+    bottom: 20%;
+    left: 8%;
+    clip-path: polygon(53% 0, 100% 0%, 100% 100%, 0% 100%);
+    margin-bottom: 20px;
+    background-image: url('img/dish_1.jpg'); 
+    background-size: cover;
+
+}
+.content p{
+    position: relative;
+    width: 50%;
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: -30px;
+}
+.content h2{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.custom{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    padding-left: 25px;
+    background: rgba(212,86,2,0.73);
+    background: -moz-linear-gradient(left, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,86,2,0.73)), color-stop(42%, rgba(212,86,2,0.63)), color-stop(84%, rgba(38,35,19,0.53)), color-stop(100%, rgba(102,102,102,0.49)));
+    background: -webkit-linear-gradient(left, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    background: -o-linear-gradient(left, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    background: -ms-linear-gradient(left, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    background: linear-gradient(to right, rgba(212,86,2,0.73) 0%, rgba(212,86,2,0.63) 42%, rgba(38,35,19,0.53) 84%, rgba(102,102,102,0.49) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d45602', endColorstr='#666666', GradientType=1 );
+    clip-path: polygon(100% 0, 100% 19%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 45% 0);
+    
+}
+.inleft{
+
+}
+.custom p{
+    position: relative;
+    text-align: justify;
+    left: 45%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    font-size: 25px;
+}
+.custom h2{
+    text-align: right;
+}
+.custom h2{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    margin-right: 40%;
+}
+.imgOver{
+    background-image: url('img/Alquiles_chavez.png');
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    z-index: 15;
+    position: absolute;
+    /* top: 55%; */
+}
+
+.products{
+    margin-left: 45px;
+    padding: 5px;
+    background-color: #f5a360;
+    border: 8px dashed #742626;
+    width: 90%;
+    height: 450px;
+    overflow: hidden;
+}
+.products h2{
+    text-align: center;
+    color: white;
+
+    font-size: 50px;
+}
+
+.item{
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+    padding: 55px;
+    margin: 15px;
+    float: left;
+    position: relative;
+    top: 5%;
+    left: 10%;
+    background-size: cover;
+    border: 3px solid lightyellow;
+}
+.item p{
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 95%;
+    left: 30%;
+    background-image: linear-gradient(to left, #000000, #3b3b3b, #777777, #b9b9b949, #ffffff00);
+    padding: 10px;
+}
+#footer{
+    margin: 0;
+    background-color: #313131;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    padding: 15px;
+}
+#footer h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+#footer ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footer ul li{
+    padding: 15px;
+    /* margin-bottom: 10px;  */
+}
